@@ -1,9 +1,9 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./pages/Home";
-import About from "./pages/About";
-import Register from "./pages/Register";
-import Login from "./pages/Login";
+import Home from "./pages/Home.tsx";
+import About from "./pages/About.tsx";
+import Register from "./pages/Register.tsx";
+import Login from "./pages/Login.tsx";
 
 function App() {
   return (
@@ -21,5 +21,6 @@ function App() {
     </Router>
   );
 }
+
 
 export default App;
